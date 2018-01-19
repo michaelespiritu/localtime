@@ -23,6 +23,6 @@ if ( ! defined( 'LOCALTIME_DIR' ) ) {
 }
 
 
-require_once LOCALTIME_DIR . '/public/get.time.php';
-require_once LOCALTIME_DIR . '/admin/get.time-admin-bar.php';
-require_once LOCALTIME_DIR . '/admin/get.time-enqueue.php';
+require_once LOCALTIME_DIR . '/includes/get.time.php';
+require_once LOCALTIME_DIR . '/includes/get.time-admin-bar.php';
+require_once LOCALTIME_DIR . '/includes/get.time-enqueue.php';
